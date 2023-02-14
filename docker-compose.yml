@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  totp:
+    image: "golang:1.19.5-alpine3.17"
+    working_dir: /app_root
+    volumes:
+      - .:/app_root
