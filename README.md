@@ -9,6 +9,13 @@ vi data/secret.txt
 
 ## 実行例
 
+### バイナリー直接実行
+```shell
+./main
+```
+
+### ソースから実行
+
 ```shell
 goenv exec go run main.go
 ```
